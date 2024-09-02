@@ -97,11 +97,11 @@
       "source_field": "message",
       "target_field": "Apache_http_status",
       "extractor_config": {
-        "regex_value": "\"\\s(\\d+)\\s\\-\\s"
+        "regex_value": "\"\\s(\\d+)\\s"
       },
       "condition_type": "none",
       "condition_value": ""
     }
   ],
-  "version": "2.4.6"
+  "version": "2.4.7"
 }
