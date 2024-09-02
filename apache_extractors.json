@@ -7,7 +7,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_http_request",
+      "target_field": "http_request",
       "extractor_config": {
         "index": 2,
         "split_by": "\""
@@ -22,7 +22,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_referrer",
+      "target_field": "referrer",
       "extractor_config": {
         "index": 4,
         "split_by": "\""
@@ -37,7 +37,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_client_UserAgent",
+      "target_field": "UserAgent",
       "extractor_config": {
         "index": 6,
         "split_by": "\""
@@ -52,7 +52,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_client_IP",
+      "target_field": "source_ip",
       "extractor_config": {
         "index": 1,
         "split_by": " "
@@ -67,7 +67,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_date",
+      "target_field": "request_date",
       "extractor_config": {
         "regex_value": "\\[(\\d+\\/\\w+\\/\\d+)"
       },
@@ -81,7 +81,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_http_status",
+      "target_field": "http_status",
       "extractor_config": {
         "regex_value": "\"\\s(\\d+)\\s"
       },
@@ -95,7 +95,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_http_request_type",
+      "target_field": "http_request_type",
       "extractor_config": {
         "regex_value": "\\]\\s\"(\\w+)\\s\\/"
       },
@@ -109,7 +109,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_time",
+      "target_field": "request_time",
       "extractor_config": {
         "regex_value": "\\:(\\d+\\:\\d+:\\d+)\\s"
       },
@@ -123,7 +123,7 @@
       "order": 0,
       "cursor_strategy": "copy",
       "source_field": "message",
-      "target_field": "Apache_http_request_uri",
+      "target_field": "http_request_uri",
       "extractor_config": {
         "regex_value": "\"\\w+\\s(\\/.*)\\sHT"
       },
