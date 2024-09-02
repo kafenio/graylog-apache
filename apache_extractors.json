@@ -61,7 +61,7 @@
       "condition_value": ""
     },
     {
-      "title": "Apache_date",
+      "title": "Apache date",
       "extractor_type": "regex",
       "converters": [],
       "order": 0,
