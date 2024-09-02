@@ -115,6 +115,20 @@
       },
       "condition_type": "none",
       "condition_value": ""
+    },
+    {
+      "title": "Apache http request URI extractor",
+      "extractor_type": "regex",
+      "converters": [],
+      "order": 0,
+      "cursor_strategy": "copy",
+      "source_field": "message",
+      "target_field": "Apache_http_request_uri",
+      "extractor_config": {
+        "regex_value": "\"\\w+\\s(\\/.*)\\sHT"
+      },
+      "condition_type": "none",
+      "condition_value": ""
     }
   ],
   "version": "6.0.5"
